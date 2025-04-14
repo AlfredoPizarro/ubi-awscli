@@ -1,6 +1,8 @@
 FROM registry.redhat.io/ubi8/ubi
 
 ENV HOME=/tmp
+ENV LANG=en_US.UTF-8
+ENV TERM=xterm-256color
 
 RUN yum install -y \
     unzip \
