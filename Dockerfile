@@ -1,5 +1,7 @@
 FROM registry.redhat.io/ubi8/ubi
 
+ENV HOME=/tmp
+
 RUN yum install -y \
     unzip \
     curl \
